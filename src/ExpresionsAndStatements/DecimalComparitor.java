@@ -5,7 +5,7 @@ public class DecimalComparitor {
     public static void main(String[] args) {
         if (areEqualByThreeDecimalPlaces(2.2375, 2.2366) == true) {
 
-            System.out.println("Numbers are equal to three decimal places");
+            System.out.println("These numbers are equal to three decimal places");
         } else {
             System.out.println("Numbers are not equal to three decimal places");
         }
