@@ -1,6 +1,13 @@
 package ExpresionsAndStatements;
 
 public class BarkingDog {
+    public static void main(String[] args) {
+        if (shouldWakeUp(true, 4) == true) {
+            System.out.println("stop barking");
+        } else {
+            System.out.println("there is no barking");
+        }
+    }
     // write code here
 
     public static boolean shouldWakeUp(boolean barking, int hourOfDay) {

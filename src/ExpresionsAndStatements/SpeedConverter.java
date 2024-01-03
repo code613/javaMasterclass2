@@ -1,6 +1,9 @@
 package ExpresionsAndStatements;
 
 public class SpeedConverter {
+    public static void main(String[] args) {
+        printConversion(8);
+    }
     // write code here
     public static long toMilesPerHour(double kilometerPerHour) {
         if (kilometerPerHour < 0) {
