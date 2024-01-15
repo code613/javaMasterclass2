@@ -11,6 +11,12 @@ public class NumberToWords {
         System.out.println(reverse(1234));
     }
 
+    //The basic method will be to chop off the last digit (number % 10) and print it out with a switch statement inside
+    //a while loop. The problem is it will print the number backwards, so we reverse the number with the reverse method.
+    //Also for numbers with trailing zeros, we will run into a problem because the condition of the while loop is until
+    //the number = 0 and in this case the loop will cut out early. For that we count the digits in the number and compare
+    //the digit count of the original number to that of the reversed number and if they are different we print zeros
+    //in the amount of the difference.
     public static void numberToWords(int number) {
         if (number < 0) {
             System.out.println("Invalid Value");
